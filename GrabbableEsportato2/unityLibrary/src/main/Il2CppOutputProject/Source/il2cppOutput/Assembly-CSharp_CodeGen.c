@@ -7,6 +7,8 @@
 
 
 
+extern void CameraPermissionRequester_Start_m9123A44FFD774AFDF4D4DCEDF740677AB016B708 (void);
+extern void CameraPermissionRequester__ctor_mEF246E789CA386B79B91E0A2BF705CBF94798CFF (void);
 extern void Grabbable_Update_m8096DEEA9D4BD2F68CEB3825D1C2729324E7585C (void);
 extern void Grabbable_HandleHoverHighlight_m8A596567575674C4CC067ED059CA6B5A5953EEDF (void);
 extern void Grabbable_TryGrabOrStretchObject_mF72F32A85735EE4E26B6A52FA23097B0B58FB198 (void);
@@ -47,8 +49,10 @@ extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
 extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[40] = 
+static Il2CppMethodPointer s_methodPointers[42] = 
 {
+	CameraPermissionRequester_Start_m9123A44FFD774AFDF4D4DCEDF740677AB016B708,
+	CameraPermissionRequester__ctor_mEF246E789CA386B79B91E0A2BF705CBF94798CFF,
 	Grabbable_Update_m8096DEEA9D4BD2F68CEB3825D1C2729324E7585C,
 	Grabbable_HandleHoverHighlight_m8A596567575674C4CC067ED059CA6B5A5953EEDF,
 	Grabbable_TryGrabOrStretchObject_mF72F32A85735EE4E26B6A52FA23097B0B58FB198,
@@ -90,54 +94,56 @@ static Il2CppMethodPointer s_methodPointers[40] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[40] = 
+static const int32_t s_InvokerIndices[42] = 
 {
-	12730,
-	12730,
-	12730,
-	12730,
-	12730,
-	12730,
-	12730,
-	1697,
-	4922,
-	3026,
-	12730,
-	12730,
-	12730,
-	9940,
-	12730,
-	9940,
-	9940,
-	9940,
-	1697,
-	4922,
-	3026,
-	12730,
-	12730,
-	12730,
-	12730,
-	12730,
-	12730,
-	12730,
-	12730,
-	12730,
-	12730,
-	12730,
-	12730,
-	12730,
-	12730,
-	12730,
-	12730,
-	12730,
-	20189,
-	12730,
+	13057,
+	13057,
+	13057,
+	13057,
+	13057,
+	13057,
+	13057,
+	13057,
+	13057,
+	1743,
+	5052,
+	3108,
+	13057,
+	13057,
+	13057,
+	10181,
+	13057,
+	10181,
+	10181,
+	10181,
+	1743,
+	5052,
+	3108,
+	13057,
+	13057,
+	13057,
+	13057,
+	13057,
+	13057,
+	13057,
+	13057,
+	13057,
+	13057,
+	13057,
+	13057,
+	13057,
+	13057,
+	13057,
+	13057,
+	13057,
+	20832,
+	13057,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	40,
+	42,
 	s_methodPointers,
 	0,
 	NULL,

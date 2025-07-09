@@ -7,6 +7,14 @@
 
 
 
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mB8F527FED4982F78A0E90C98B2AB703EAA27B563 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m38B7A3286884F1C804B02BC8FFBA4F32DB859C5C (void);
+extern void XRConfigurationDataAttribute_get_displayName_mE0BD51CF7824CBB1318708EAD9717F604BE14057 (void);
+extern void XRConfigurationDataAttribute_set_displayName_m3AFFE133640E562156E3D20A81206FE9F62D12BB (void);
+extern void XRConfigurationDataAttribute_get_buildSettingsKey_m5458381526D6DEDA8A3DDC7375F24EE3A481CE37 (void);
+extern void XRConfigurationDataAttribute_set_buildSettingsKey_m6AFAEBF0A402551EC9A80324E5B64403065E75A0 (void);
+extern void XRConfigurationDataAttribute__ctor_mC4325AA1EFFCBB1D2CC10B1F0BFDACCDE147A9C8 (void);
+extern void XRConfigurationDataAttribute__ctor_m644D2F677622C19F3AF0AF72BC355A73A274597D (void);
 extern void XRGeneralSettings_get_Manager_m112FEB4E6DFB7B5F5C4A2DEC4E975CF2EBD51B42 (void);
 extern void XRGeneralSettings_set_Manager_m8BF44008AF9941A38529BF4E9DD291B519CD3310 (void);
 extern void XRGeneralSettings_get_Instance_m9F222F982E62E066E119754858D8E73CFE42048C (void);
@@ -32,6 +40,9 @@ extern void XRLoader_GetSupportedGraphicsDeviceTypes_m92C8ECDE9FEF211C2B9EB9574B
 extern void XRLoader__ctor_m466A0E280C64F30806342A9EEF55801FA88682CE (void);
 extern void XRLoaderHelper_Deinitialize_m879052C82795CBA2443070F8206798BED6C0C5E7 (void);
 extern void XRLoaderHelper__ctor_mEAD9691DBE10C223AB11AB7056ED0B3BA59D7699 (void);
+extern void XRManagementAnalytics_Initialize_mA0727A2B768833A169E4FBC45B7F6F2A09FAEC78 (void);
+extern void XrInitializeAnalytic__ctor_m9980C9F6ABD15963DA3CF0F7CC296329A0C8B2E6 (void);
+extern void XrInitializeAnalytic_TryGatherData_mCC619322C1F0372D348C2C951BDD570EA4465187 (void);
 extern void XRManagerSettings_get_automaticLoading_mF28DC51D46409F4D75DCF53E38C8E6B28444B01A (void);
 extern void XRManagerSettings_set_automaticLoading_m8F328FA730A8DD8C62D9A8FA8569A2084D530E0E (void);
 extern void XRManagerSettings_get_automaticRunning_mE6F4B5875CF9B098B0B20388E77B651EB633D166 (void);
@@ -65,8 +76,16 @@ extern void U3CInitializeLoaderU3Ed__24_U3CU3Em__Finally1_m6CCA9E68B1BF2344768A7
 extern void U3CInitializeLoaderU3Ed__24_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4F6952CC23A00893DC2B18A638480696CEE3370C (void);
 extern void U3CInitializeLoaderU3Ed__24_System_Collections_IEnumerator_Reset_m803D94C93BE413DFBA21C0FEFABA00DA3E3414C4 (void);
 extern void U3CInitializeLoaderU3Ed__24_System_Collections_IEnumerator_get_Current_m92156199FCA3AAD568CA668A7A6CF7FB31B8A23C (void);
-static Il2CppMethodPointer s_methodPointers[67] = 
+static Il2CppMethodPointer s_methodPointers[78] = 
 {
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mB8F527FED4982F78A0E90C98B2AB703EAA27B563,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m38B7A3286884F1C804B02BC8FFBA4F32DB859C5C,
+	XRConfigurationDataAttribute_get_displayName_mE0BD51CF7824CBB1318708EAD9717F604BE14057,
+	XRConfigurationDataAttribute_set_displayName_m3AFFE133640E562156E3D20A81206FE9F62D12BB,
+	XRConfigurationDataAttribute_get_buildSettingsKey_m5458381526D6DEDA8A3DDC7375F24EE3A481CE37,
+	XRConfigurationDataAttribute_set_buildSettingsKey_m6AFAEBF0A402551EC9A80324E5B64403065E75A0,
+	XRConfigurationDataAttribute__ctor_mC4325AA1EFFCBB1D2CC10B1F0BFDACCDE147A9C8,
+	XRConfigurationDataAttribute__ctor_m644D2F677622C19F3AF0AF72BC355A73A274597D,
 	XRGeneralSettings_get_Manager_m112FEB4E6DFB7B5F5C4A2DEC4E975CF2EBD51B42,
 	XRGeneralSettings_set_Manager_m8BF44008AF9941A38529BF4E9DD291B519CD3310,
 	XRGeneralSettings_get_Instance_m9F222F982E62E066E119754858D8E73CFE42048C,
@@ -100,6 +119,9 @@ static Il2CppMethodPointer s_methodPointers[67] =
 	NULL,
 	XRLoaderHelper_Deinitialize_m879052C82795CBA2443070F8206798BED6C0C5E7,
 	XRLoaderHelper__ctor_mEAD9691DBE10C223AB11AB7056ED0B3BA59D7699,
+	XRManagementAnalytics_Initialize_mA0727A2B768833A169E4FBC45B7F6F2A09FAEC78,
+	XrInitializeAnalytic__ctor_m9980C9F6ABD15963DA3CF0F7CC296329A0C8B2E6,
+	XrInitializeAnalytic_TryGatherData_mCC619322C1F0372D348C2C951BDD570EA4465187,
 	XRManagerSettings_get_automaticLoading_mF28DC51D46409F4D75DCF53E38C8E6B28444B01A,
 	XRManagerSettings_set_automaticLoading_m8F328FA730A8DD8C62D9A8FA8569A2084D530E0E,
 	XRManagerSettings_get_automaticRunning_mE6F4B5875CF9B098B0B20388E77B651EB633D166,
@@ -135,32 +157,40 @@ static Il2CppMethodPointer s_methodPointers[67] =
 	U3CInitializeLoaderU3Ed__24_System_Collections_IEnumerator_Reset_m803D94C93BE413DFBA21C0FEFABA00DA3E3414C4,
 	U3CInitializeLoaderU3Ed__24_System_Collections_IEnumerator_get_Current_m92156199FCA3AAD568CA668A7A6CF7FB31B8A23C,
 };
-static const int32_t s_InvokerIndices[67] = 
+static const int32_t s_InvokerIndices[78] = 
 {
-	12555,
-	9788,
-	20078,
-	12555,
-	12388,
-	12730,
-	20159,
-	12730,
-	12730,
-	20159,
-	20159,
-	12730,
-	12730,
-	12730,
-	12730,
-	12730,
-	20159,
-	12388,
-	12388,
-	12388,
-	12388,
+	20839,
+	13057,
+	12881,
+	10027,
+	12881,
+	10027,
+	13057,
+	5076,
+	12881,
+	10027,
+	20718,
+	12881,
+	12712,
+	13057,
+	20800,
+	13057,
+	13057,
+	20800,
+	20800,
+	13057,
+	13057,
+	13057,
+	13057,
+	13057,
+	20800,
+	12712,
+	12712,
+	12712,
+	12712,
 	-1,
-	8399,
-	12730,
+	8611,
+	13057,
 	-1,
 	-1,
 	-1,
@@ -168,53 +198,56 @@ static const int32_t s_InvokerIndices[67] =
 	-1,
 	-1,
 	-1,
-	12388,
-	12730,
-	12388,
-	9626,
-	12388,
-	9626,
-	12555,
-	12555,
-	12388,
-	12555,
-	9788,
+	12712,
+	13057,
+	20667,
+	10405,
+	2953,
+	12712,
+	9865,
+	12712,
+	9865,
+	12881,
+	12881,
+	12712,
+	12881,
+	10027,
 	-1,
-	12730,
-	12555,
-	3024,
-	6950,
-	6950,
-	12730,
-	6950,
-	12730,
-	12730,
-	12730,
-	12730,
-	12730,
-	12730,
-	12555,
-	9788,
-	12555,
-	12730,
-	9735,
-	12730,
-	12388,
-	12730,
-	12555,
-	12730,
-	12555,
+	13057,
+	12881,
+	3106,
+	7134,
+	7134,
+	13057,
+	7134,
+	13057,
+	13057,
+	13057,
+	13057,
+	13057,
+	13057,
+	12881,
+	10027,
+	12881,
+	13057,
+	9974,
+	13057,
+	12712,
+	13057,
+	12881,
+	13057,
+	12881,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[8] = 
 {
-	{ 0x06000019, { 0, 2 } },
-	{ 0x0600001A, { 2, 2 } },
-	{ 0x0600001B, { 4, 2 } },
-	{ 0x0600001C, { 6, 3 } },
-	{ 0x0600001D, { 9, 13 } },
-	{ 0x0600001E, { 22, 2 } },
-	{ 0x0600001F, { 24, 2 } },
-	{ 0x0600002B, { 26, 1 } },
+	{ 0x06000021, { 0, 2 } },
+	{ 0x06000022, { 2, 2 } },
+	{ 0x06000023, { 4, 2 } },
+	{ 0x06000024, { 6, 3 } },
+	{ 0x06000025, { 9, 13 } },
+	{ 0x06000026, { 22, 2 } },
+	{ 0x06000027, { 24, 2 } },
+	{ 0x06000036, { 26, 1 } },
 };
 extern const uint32_t g_rgctx_T_tE83530F7E4A38B58BF27632C151E64FE9AB1BD8C;
 extern const uint32_t g_rgctx_T_tE83530F7E4A38B58BF27632C151E64FE9AB1BD8C;
@@ -277,7 +310,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_Management_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_XR_Management_CodeGenModule = 
 {
 	"Unity.XR.Management.dll",
-	67,
+	78,
 	s_methodPointers,
 	0,
 	NULL,

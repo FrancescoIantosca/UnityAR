@@ -351,6 +351,7 @@ IL2CPP_EXTERN_C RuntimeClass* StringExtensions_tF36A15B71DEBA41985367B306EA9DCFC
 IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TrackingOriginModeFlags_t04723708FB00785CE6A9CDECBB4501ADAB612C4F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TrackingOriginMode_tA4B819C901D7C83B5C978B3F12855B00E40C70B1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TypeExtensions_t65367AC18793C0FA75C262A51A63DC36B4E9D427_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CRepeatInitializeCameraU3Ed__48_t1C4834BD2120B1BB67B0DEC0175287E7865C8315_il2cpp_TypeInfo_var;
@@ -370,6 +371,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral1FB9018D8BFC0FACF068B1067EF9E96C35FED1FE
 IL2CPP_EXTERN_C String_t* _stringLiteral21BABB7D4D81546003053B7D1D3E1523E82A424A;
 IL2CPP_EXTERN_C String_t* _stringLiteral39FAB0725FA527AB3F0B0600EB09D90D49655B49;
 IL2CPP_EXTERN_C String_t* _stringLiteral3ECE3C7D24C88332AA6E7641A205E050D0A2D470;
+IL2CPP_EXTERN_C String_t* _stringLiteral3FC2493A341A7326758E941659C41320B80163AA;
 IL2CPP_EXTERN_C String_t* _stringLiteral43FADD38730AB2C7F5F026269B5A4CAA71A45F33;
 IL2CPP_EXTERN_C String_t* _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C;
 IL2CPP_EXTERN_C String_t* _stringLiteral558296ACB55EF55350E59F922EE5DD3735E5F58F;
@@ -393,6 +395,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralBF040E7615321C71B1A420E124F28CE77EFC874B
 IL2CPP_EXTERN_C String_t* _stringLiteralC3A7986F9625A352BB23E8DAE4FC6D9176CE5F4B;
 IL2CPP_EXTERN_C String_t* _stringLiteralD0963CC21FBA9B63973BFBAC23D8DE1C3294DCF5;
 IL2CPP_EXTERN_C String_t* _stringLiteralD17768C3B31CAAABBF3AA5F14A359A7C3C2CF794;
+IL2CPP_EXTERN_C String_t* _stringLiteralD689EACA9A810383FB2DD66A0BB9FAE341BDC5F6;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 IL2CPP_EXTERN_C String_t* _stringLiteralDE58760CD3B10FBA5374AEEA7E68CF9143A9725B;
 IL2CPP_EXTERN_C String_t* _stringLiteralEA74954BC8997911392172F7835213429D282058;
@@ -3669,7 +3672,9 @@ inline bool Enumerator_MoveNext_m43BF1149292892E0A147B31279D198F4ABA5D952 (Enume
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRInputSubsystem_GetTrackingOriginMode_mBAFED615F74039A681825BB956AD3C8FA7DE45F2 (XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XROrigin_set_CurrentTrackingOriginMode_mD2DF2D77407214FFDBED47C114DB0C1348C4F84E_inline (XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRInputSubsystem_GetSupportedTrackingOriginModes_mBA7190E84E6BB4F251C232B97565E228AECB3018 (XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XROrigin_ConvertTrackingOriginModeToFlag_mF88BE342675DA498A47141BAAC03E249A77E7D8F (int32_t ___0_mode, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRInputSubsystem_TrySetTrackingOriginMode_m132C190CEAE4403A381BF1C1C4B5FF349F2A3FA7 (XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* __this, int32_t ___0_origin, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRInputSubsystem_TryRecenter_m4F8888E40ED79139DCB81D56A67C03B4D931A6BB (XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRepeatInitializeCameraU3Ed__48__ctor_mEA756E5C40DFD2B29DAAEC516D2C2C4EC21837BA (U3CRepeatInitializeCameraU3Ed__48_t1C4834BD2120B1BB67B0DEC0175287E7865C8315* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_up_mE47A9D9D96422224DD0539AA5524DA5440145BB2 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
@@ -3819,7 +3824,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBinding_Bind_m4EF06F026C80482430123A70B1F1068EEF90EB1B (EventBinding_tE2E7FE32BED1077F192B00A04E187EB65F9BE14E* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBinding_Unbind_mA991D6B531B6178FB3AA382DE29FD4EA010816F5 (EventBinding_tE2E7FE32BED1077F192B00A04E187EB65F9BE14E* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBinding_ClearBinding_mA6B5BF23CDAD914AD7F8C78909786A866E33DCC5 (EventBinding_tE2E7FE32BED1077F192B00A04E187EB65F9BE14E* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Convert_ToInt32_m9FEA65DB96264479B5268014F10754787382D297 (RuntimeObject* ___0_value, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Bounds_get_center_m5B05F81CB835EB6DD8628FDA24B638F477984DC3_inline (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Bounds_get_extents_mFE6DC407FCE2341BE2C750CB554055D211281D25_inline (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* __this, const RuntimeMethod* method) ;
@@ -16091,30 +16095,37 @@ IL_0008:
 		int32_t L_2 = V_0;
 		if ((((int32_t)L_2) == ((int32_t)1)))
 		{
-			goto IL_0023;
+			goto IL_0028;
 		}
 	}
 	{
 		int32_t L_3 = V_0;
-		if ((!(((uint32_t)L_3) == ((uint32_t)2))))
+		if ((((int32_t)L_3) == ((int32_t)2)))
 		{
-			goto IL_0030;
+			goto IL_001c;
 		}
 	}
+	{
+		int32_t L_4 = V_0;
+		if ((((int32_t)L_4) == ((int32_t)8)))
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		return;
+	}
+
+IL_001c:
 	{
 		XROrigin_MoveOffsetHeight_mF0B8B1C8D45F9EF0D2DD9534B443D6EC2A9FC248(__this, (0.0f), NULL);
 		return;
 	}
 
-IL_0023:
+IL_0028:
 	{
-		float L_4 = __this->___m_CameraYOffset;
-		XROrigin_MoveOffsetHeight_mF0B8B1C8D45F9EF0D2DD9534B443D6EC2A9FC248(__this, L_4, NULL);
-		return;
-	}
-
-IL_0030:
-	{
+		float L_5 = __this->___m_CameraYOffset;
+		XROrigin_MoveOffsetHeight_mF0B8B1C8D45F9EF0D2DD9534B443D6EC2A9FC248(__this, L_5, NULL);
 		return;
 	}
 }
@@ -16329,15 +16340,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XROrigin_SetupCamera_mB2D4BC328855A681FA
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackingOriginModeFlags_t04723708FB00785CE6A9CDECBB4501ADAB612C4F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackingOriginMode_tA4B819C901D7C83B5C978B3F12855B00E40C70B1_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral21BABB7D4D81546003053B7D1D3E1523E82A424A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3FC2493A341A7326758E941659C41320B80163AA);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral558296ACB55EF55350E59F922EE5DD3735E5F58F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD689EACA9A810383FB2DD66A0BB9FAE341BDC5F6);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
-	int32_t G_B11_0 = 0;
 	{
 		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_0 = ___0_inputSubsystem;
 		if (L_0)
@@ -16362,13 +16376,13 @@ IL_0005:
 	}
 	{
 		int32_t L_3 = V_1;
-		if ((!(((uint32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_3, 1))) > ((uint32_t)1))))
+		if ((!(((uint32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_3, 1))) > ((uint32_t)2))))
 		{
-			goto IL_002a;
+			goto IL_002d;
 		}
 	}
 	{
-		goto IL_009e;
+		goto IL_009f;
 	}
 
 IL_001c:
@@ -16378,10 +16392,10 @@ IL_001c:
 		int32_t L_5;
 		L_5 = XRInputSubsystem_GetTrackingOriginMode_mBAFED615F74039A681825BB956AD3C8FA7DE45F2(L_4, NULL);
 		XROrigin_set_CurrentTrackingOriginMode_mD2DF2D77407214FFDBED47C114DB0C1348C4F84E_inline(__this, L_5, NULL);
-		goto IL_00a0;
+		goto IL_00c0;
 	}
 
-IL_002a:
+IL_002d:
 	{
 		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_6 = ___0_inputSubsystem;
 		NullCheck(L_6);
@@ -16391,127 +16405,135 @@ IL_002a:
 		int32_t L_8 = V_2;
 		if (L_8)
 		{
-			goto IL_0036;
+			goto IL_0039;
 		}
 	}
 	{
 		return (bool)0;
 	}
 
-IL_0036:
+IL_0039:
 	{
 		int32_t L_9 = __this->___m_RequestedTrackingOriginMode;
-		if ((((int32_t)L_9) == ((int32_t)1)))
+		il2cpp_codegen_runtime_class_init_inline(XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE_il2cpp_TypeInfo_var);
+		int32_t L_10;
+		L_10 = XROrigin_ConvertTrackingOriginModeToFlag_mF88BE342675DA498A47141BAAC03E249A77E7D8F(L_9, NULL);
+		V_3 = L_10;
+		int32_t L_11 = V_2;
+		int32_t L_12 = V_3;
+		if (((int32_t)((int32_t)L_11&(int32_t)L_12)))
 		{
-			goto IL_0042;
-		}
-	}
-	{
-		G_B11_0 = 2;
-		goto IL_0043;
-	}
-
-IL_0042:
-	{
-		G_B11_0 = 1;
-	}
-
-IL_0043:
-	{
-		V_3 = G_B11_0;
-		int32_t L_10 = V_2;
-		int32_t L_11 = V_3;
-		if (((int32_t)((int32_t)L_10&(int32_t)L_11)))
-		{
-			goto IL_0094;
+			goto IL_0095;
 		}
 	}
 	{
 		__this->___m_RequestedTrackingOriginMode = 0;
-		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_12 = ___0_inputSubsystem;
-		NullCheck(L_12);
-		int32_t L_13;
-		L_13 = XRInputSubsystem_GetTrackingOriginMode_mBAFED615F74039A681825BB956AD3C8FA7DE45F2(L_12, NULL);
-		XROrigin_set_CurrentTrackingOriginMode_mD2DF2D77407214FFDBED47C114DB0C1348C4F84E_inline(__this, L_13, NULL);
-		int32_t L_14 = V_3;
-		int32_t L_15 = L_14;
-		RuntimeObject* L_16 = Box(TrackingOriginModeFlags_t04723708FB00785CE6A9CDECBB4501ADAB612C4F_il2cpp_TypeInfo_var, &L_15);
-		String_t* L_17;
-		L_17 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral558296ACB55EF55350E59F922EE5DD3735E5F58F, L_16, NULL);
-		int32_t L_18 = V_2;
-		int32_t L_19 = L_18;
-		RuntimeObject* L_20 = Box(TrackingOriginModeFlags_t04723708FB00785CE6A9CDECBB4501ADAB612C4F_il2cpp_TypeInfo_var, &L_19);
-		int32_t L_21;
-		L_21 = XROrigin_get_CurrentTrackingOriginMode_m3117576FC85371E692EFFA853AF5297CEF150589_inline(__this, NULL);
-		int32_t L_22 = L_21;
-		RuntimeObject* L_23 = Box(TrackingOriginModeFlags_t04723708FB00785CE6A9CDECBB4501ADAB612C4F_il2cpp_TypeInfo_var, &L_22);
-		String_t* L_24;
-		L_24 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral21BABB7D4D81546003053B7D1D3E1523E82A424A, L_20, L_23, NULL);
+		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_13 = ___0_inputSubsystem;
+		NullCheck(L_13);
+		int32_t L_14;
+		L_14 = XRInputSubsystem_GetTrackingOriginMode_mBAFED615F74039A681825BB956AD3C8FA7DE45F2(L_13, NULL);
+		XROrigin_set_CurrentTrackingOriginMode_mD2DF2D77407214FFDBED47C114DB0C1348C4F84E_inline(__this, L_14, NULL);
+		int32_t L_15 = V_3;
+		int32_t L_16 = L_15;
+		RuntimeObject* L_17 = Box(TrackingOriginModeFlags_t04723708FB00785CE6A9CDECBB4501ADAB612C4F_il2cpp_TypeInfo_var, &L_16);
+		String_t* L_18;
+		L_18 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral558296ACB55EF55350E59F922EE5DD3735E5F58F, L_17, NULL);
+		int32_t L_19 = V_2;
+		int32_t L_20 = L_19;
+		RuntimeObject* L_21 = Box(TrackingOriginModeFlags_t04723708FB00785CE6A9CDECBB4501ADAB612C4F_il2cpp_TypeInfo_var, &L_20);
+		int32_t L_22;
+		L_22 = XROrigin_get_CurrentTrackingOriginMode_m3117576FC85371E692EFFA853AF5297CEF150589_inline(__this, NULL);
+		int32_t L_23 = L_22;
+		RuntimeObject* L_24 = Box(TrackingOriginModeFlags_t04723708FB00785CE6A9CDECBB4501ADAB612C4F_il2cpp_TypeInfo_var, &L_23);
 		String_t* L_25;
-		L_25 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_17, L_24, NULL);
+		L_25 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral21BABB7D4D81546003053B7D1D3E1523E82A424A, L_21, L_24, NULL);
+		String_t* L_26;
+		L_26 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_18, L_25, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(L_25, __this, NULL);
-		goto IL_00a0;
+		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(L_26, __this, NULL);
+		goto IL_00c0;
 	}
 
-IL_0094:
+IL_0095:
 	{
-		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_26 = ___0_inputSubsystem;
-		int32_t L_27 = V_3;
-		NullCheck(L_26);
-		bool L_28;
-		L_28 = XRInputSubsystem_TrySetTrackingOriginMode_m132C190CEAE4403A381BF1C1C4B5FF349F2A3FA7(L_26, L_27, NULL);
-		V_0 = L_28;
-		goto IL_00a0;
+		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_27 = ___0_inputSubsystem;
+		int32_t L_28 = V_3;
+		NullCheck(L_27);
+		bool L_29;
+		L_29 = XRInputSubsystem_TrySetTrackingOriginMode_m132C190CEAE4403A381BF1C1C4B5FF349F2A3FA7(L_27, L_28, NULL);
+		V_0 = L_29;
+		goto IL_00c0;
 	}
 
-IL_009e:
+IL_009f:
 	{
+		int32_t L_30 = __this->___m_RequestedTrackingOriginMode;
+		int32_t L_31 = L_30;
+		RuntimeObject* L_32 = Box(TrackingOriginMode_tA4B819C901D7C83B5C978B3F12855B00E40C70B1_il2cpp_TypeInfo_var, &L_31);
+		String_t* L_33;
+		L_33 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralD689EACA9A810383FB2DD66A0BB9FAE341BDC5F6, _stringLiteral3FC2493A341A7326758E941659C41320B80163AA, L_32, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_33, NULL);
 		return (bool)0;
 	}
 
-IL_00a0:
+IL_00c0:
 	{
-		bool L_29 = V_0;
-		if (!L_29)
+		bool L_34 = V_0;
+		if (!L_34)
 		{
-			goto IL_00a9;
+			goto IL_00c9;
 		}
 	}
 	{
 		XROrigin_MoveOffsetHeight_m6336FBEAEA9FA0742D0B1740E2316A9CABDAA7AF(__this, NULL);
 	}
 
-IL_00a9:
+IL_00c9:
 	{
-		int32_t L_30;
-		L_30 = XROrigin_get_CurrentTrackingOriginMode_m3117576FC85371E692EFFA853AF5297CEF150589_inline(__this, NULL);
-		if ((((int32_t)L_30) == ((int32_t)1)))
+		int32_t L_35;
+		L_35 = XROrigin_get_CurrentTrackingOriginMode_m3117576FC85371E692EFFA853AF5297CEF150589_inline(__this, NULL);
+		if ((((int32_t)L_35) == ((int32_t)1)))
 		{
-			goto IL_00bb;
+			goto IL_00ed;
 		}
 	}
 	{
-		int32_t L_31 = __this->___m_RequestedTrackingOriginMode;
-		if ((!(((uint32_t)L_31) == ((uint32_t)1))))
+		int32_t L_36 = __this->___m_RequestedTrackingOriginMode;
+		if ((((int32_t)L_36) == ((int32_t)1)))
 		{
-			goto IL_00c2;
+			goto IL_00ed;
+		}
+	}
+	{
+		int32_t L_37;
+		L_37 = XROrigin_get_CurrentTrackingOriginMode_m3117576FC85371E692EFFA853AF5297CEF150589_inline(__this, NULL);
+		if ((((int32_t)L_37) == ((int32_t)8)))
+		{
+			goto IL_00ed;
+		}
+	}
+	{
+		int32_t L_38 = __this->___m_RequestedTrackingOriginMode;
+		if ((!(((uint32_t)L_38) == ((uint32_t)3))))
+		{
+			goto IL_00f4;
 		}
 	}
 
-IL_00bb:
+IL_00ed:
 	{
-		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_32 = ___0_inputSubsystem;
-		NullCheck(L_32);
-		bool L_33;
-		L_33 = XRInputSubsystem_TryRecenter_m4F8888E40ED79139DCB81D56A67C03B4D931A6BB(L_32, NULL);
-		V_0 = L_33;
+		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_39 = ___0_inputSubsystem;
+		NullCheck(L_39);
+		bool L_40;
+		L_40 = XRInputSubsystem_TryRecenter_m4F8888E40ED79139DCB81D56A67C03B4D931A6BB(L_39, NULL);
+		V_0 = L_40;
 	}
 
-IL_00c2:
+IL_00f4:
 	{
-		bool L_34 = V_0;
-		return L_34;
+		bool L_41 = V_0;
+		return L_41;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XROrigin_OnInputSubsystemTrackingOriginUpdated_m1D58DF267E36A73C5C5C5E155284D64D83810FD9 (XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE* __this, XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* ___0_inputSubsystem, const RuntimeMethod* method) 
@@ -17255,6 +17277,59 @@ IL_003e:
 		return;
 	}
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XROrigin_ConvertTrackingOriginModeToFlag_mF88BE342675DA498A47141BAAC03E249A77E7D8F (int32_t ___0_mode, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___0_mode;
+		switch (L_0)
+		{
+			case 0:
+			{
+				goto IL_0018;
+			}
+			case 1:
+			{
+				goto IL_001a;
+			}
+			case 2:
+			{
+				goto IL_001c;
+			}
+			case 3:
+			{
+				goto IL_001e;
+			}
+		}
+	}
+	{
+		goto IL_0020;
+	}
+
+IL_0018:
+	{
+		return (int32_t)(0);
+	}
+
+IL_001a:
+	{
+		return (int32_t)(1);
+	}
+
+IL_001c:
+	{
+		return (int32_t)(2);
+	}
+
+IL_001e:
+	{
+		return (int32_t)(8);
+	}
+
+IL_0020:
+	{
+		return (int32_t)(0);
+	}
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XROrigin_Start_m7F0D352F4EBEC07BE7C779E8B2997E6121C2E445 (XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17389,8 +17464,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XROrigin_U3COnValidateU3Eg__IsModeStaleU
 	memset((&V_0), 0, sizeof(V_0));
 	XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* V_1 = NULL;
 	int32_t V_2 = 0;
-	int32_t V_3 = 0;
-	bool V_4 = false;
+	bool V_3 = false;
 	{
 		il2cpp_codegen_runtime_class_init_inline(XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE_il2cpp_TypeInfo_var);
 		List_1_t90832B88D7207769654164CC28440CF594CC397D* L_0 = ((XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE_StaticFields*)il2cpp_codegen_static_fields_for(XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE_il2cpp_TypeInfo_var))->___s_InputSubsystems;
@@ -17399,7 +17473,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XROrigin_U3COnValidateU3Eg__IsModeStaleU
 		L_1 = List_1_get_Count_mF8DDB0BDC273D655115D5E62307ADF657EC28DE5_inline(L_0, List_1_get_Count_mF8DDB0BDC273D655115D5E62307ADF657EC28DE5_RuntimeMethod_var);
 		if ((((int32_t)L_1) <= ((int32_t)0)))
 		{
-			goto IL_0079;
+			goto IL_005e;
 		}
 	}
 	{
@@ -17414,7 +17488,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XROrigin_U3COnValidateU3Eg__IsModeStaleU
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_006b:
+FINALLY_0050:
 			{
 				Enumerator_Dispose_m984D421A36C91A4FA622218385CB4346C9411DF3((&V_0), Enumerator_Dispose_m984D421A36C91A4FA622218385CB4346C9411DF3_RuntimeMethod_var);
 				return;
@@ -17423,7 +17497,7 @@ FINALLY_006b:
 		try
 		{
 			{
-				goto IL_0060_1;
+				goto IL_0045_1;
 			}
 
 IL_001a_1:
@@ -17432,87 +17506,56 @@ IL_001a_1:
 				L_4 = Enumerator_get_Current_mEBE35085F23AD21C6E36B9EFAED53B414317CE31_inline((&V_0), Enumerator_get_Current_mEBE35085F23AD21C6E36B9EFAED53B414317CE31_RuntimeMethod_var);
 				V_1 = L_4;
 				int32_t L_5 = __this->___m_RequestedTrackingOriginMode;
-				V_3 = L_5;
-				int32_t L_6 = V_3;
-				switch (L_6)
+				il2cpp_codegen_runtime_class_init_inline(XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE_il2cpp_TypeInfo_var);
+				int32_t L_6;
+				L_6 = XROrigin_ConvertTrackingOriginModeToFlag_mF88BE342675DA498A47141BAAC03E249A77E7D8F(L_5, NULL);
+				V_2 = L_6;
+				int32_t L_7 = V_2;
+				if (L_7)
 				{
-					case 0:
-					{
-						goto IL_003d_1;
-					}
-					case 1:
-					{
-						goto IL_0042_1;
-					}
-					case 2:
-					{
-						goto IL_0046_1;
-					}
+					goto IL_0035_1;
 				}
 			}
 			{
-				goto IL_004a_1;
+				V_3 = (bool)0;
+				goto IL_0060;
 			}
 
-IL_003d_1:
-			{
-				V_4 = (bool)0;
-				goto IL_007b;
-			}
-
-IL_0042_1:
-			{
-				V_2 = 1;
-				goto IL_004f_1;
-			}
-
-IL_0046_1:
-			{
-				V_2 = 2;
-				goto IL_004f_1;
-			}
-
-IL_004a_1:
-			{
-				V_4 = (bool)0;
-				goto IL_007b;
-			}
-
-IL_004f_1:
-			{
-				XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_7 = V_1;
-				if (!L_7)
-				{
-					goto IL_0060_1;
-				}
-			}
+IL_0035_1:
 			{
 				XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_8 = V_1;
-				NullCheck(L_8);
-				int32_t L_9;
-				L_9 = XRInputSubsystem_GetTrackingOriginMode_mBAFED615F74039A681825BB956AD3C8FA7DE45F2(L_8, NULL);
-				int32_t L_10 = V_2;
-				if ((((int32_t)L_9) == ((int32_t)L_10)))
+				if (!L_8)
 				{
-					goto IL_0060_1;
+					goto IL_0045_1;
 				}
 			}
 			{
-				V_4 = (bool)1;
-				goto IL_007b;
+				XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_9 = V_1;
+				NullCheck(L_9);
+				int32_t L_10;
+				L_10 = XRInputSubsystem_GetTrackingOriginMode_mBAFED615F74039A681825BB956AD3C8FA7DE45F2(L_9, NULL);
+				int32_t L_11 = V_2;
+				if ((((int32_t)L_10) == ((int32_t)L_11)))
+				{
+					goto IL_0045_1;
+				}
+			}
+			{
+				V_3 = (bool)1;
+				goto IL_0060;
 			}
 
-IL_0060_1:
+IL_0045_1:
 			{
-				bool L_11;
-				L_11 = Enumerator_MoveNext_m43BF1149292892E0A147B31279D198F4ABA5D952((&V_0), Enumerator_MoveNext_m43BF1149292892E0A147B31279D198F4ABA5D952_RuntimeMethod_var);
-				if (L_11)
+				bool L_12;
+				L_12 = Enumerator_MoveNext_m43BF1149292892E0A147B31279D198F4ABA5D952((&V_0), Enumerator_MoveNext_m43BF1149292892E0A147B31279D198F4ABA5D952_RuntimeMethod_var);
+				if (L_12)
 				{
 					goto IL_001a_1;
 				}
 			}
 			{
-				goto IL_0079;
+				goto IL_005e;
 			}
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -17521,15 +17564,15 @@ IL_0060_1:
 		}
 	}
 
-IL_0079:
+IL_005e:
 	{
 		return (bool)0;
 	}
 
-IL_007b:
+IL_0060:
 	{
-		bool L_12 = V_4;
-		return L_12;
+		bool L_13 = V_3;
+		return L_13;
 	}
 }
 #ifdef __clang__

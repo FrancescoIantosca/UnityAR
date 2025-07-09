@@ -4,6 +4,9 @@ apply from: '../shared/keepUnitySymbols.gradle'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation(name: 'unityandroidpermissions', ext:'aar')
+    implementation(name: 'arcore_client', ext:'aar')
+    implementation(name: 'UnityARCore', ext:'aar')
+    implementation(name: 'ARPresto', ext:'aar')
     implementation project(':unityLibrary:xrmanifest.androidlib')
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'androidx.core:core:1.9.0'
@@ -15,7 +18,7 @@ android {
     namespace "com.unity3d.player"
     ndkPath "C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK"
     ndkVersion "23.1.7779620"
-    compileSdk 35
+    compileSdk 36
     buildToolsVersion = "34.0.0"
 
     compileOptions {
@@ -26,8 +29,8 @@ android {
     defaultConfig {
         consumerProguardFiles "proguard-unity.txt"
         versionName "0.1.0"
-        minSdk 23
-        targetSdk 35
+        minSdk 26
+        targetSdk 36
         versionCode 1
 
         ndk {

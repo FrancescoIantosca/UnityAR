@@ -7,11 +7,13 @@
 
 struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct AnalyticInfoAttribute_tFD5050784AD38FD1AA33649751BAD325CF9EE304;
 struct AnalyticsEventBase_t4CB926589E315DB970B0140489C698A8D4A40753;
 struct AssetDatabaseRefreshAnalytic_tE76E2BC8AC6BDAE6CC572691E17CCDEB62E5B477;
 struct AssetExportAnalytic_tC347E7D73D731A0E9B96F2A76998B7A920D75F2A;
 struct AssetImportAnalytic_tBCEFC2583311E752D01764ECBA46C496EDBF6180;
 struct AssetImportStatusAnalytic_t73E7C082D60A70B2EB33853030F1F5A665F56378;
+struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA;
 struct BuildAssetBundleAnalytic_tD89C7AC30D63005A4698BE765CA8011832ACA947;
 struct CollabOperationAnalytic_t4704367CE9DC7632AB7A7D1F1162B750BE9A5367;
 struct LicensingErrorAnalytic_t0B745A7C96A7267E910B6F72B72D14422745DCD9;
@@ -124,6 +126,9 @@ IL2CPP_EXTERN_C_END
 struct U3CModuleU3E_tD1F0B9705D5594A42609E77459719A6C0DB9DD53 
 {
 };
+struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA  : public RuntimeObject
+{
+};
 struct String_t  : public RuntimeObject
 {
 	int32_t ____stringLength;
@@ -137,6 +142,14 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
 };
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 {
+};
+struct AnalyticInfoAttribute_tFD5050784AD38FD1AA33649751BAD325CF9EE304  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	int32_t ___U3CversionU3Ek__BackingField;
+	String_t* ___U3CvendorKeyU3Ek__BackingField;
+	String_t* ___U3CeventNameU3Ek__BackingField;
+	int32_t ___U3CmaxEventsPerHourU3Ek__BackingField;
+	int32_t ___U3CmaxNumberOfElementsU3Ek__BackingField;
 };
 struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
 {
@@ -160,6 +173,10 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 		};
 		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
 	};
+};
+struct AnalyticsResult_t0AB6F113372F746E51646ECA6BBCE6B6BE3F2433 
+{
+	int32_t ___value__;
 };
 struct SendEventOptions_t2CAF57A3D9AD197CBC8855BAFA743F0205B36D9B 
 {
@@ -810,6 +827,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRDeviceAnalyticBase__ctor_m6477E0459113
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRDeviceMirrorAnalytic__ctor_mC5C237A49C47BBCF9E16B70A0E8FF82FFFBF2B16 (VRDeviceMirrorAnalytic_t41CDC93A658EE982004C9CFCCBF4C37BC603D0DE* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRDeviceUserAnalytic__ctor_m99FBEFC61AE64B7CEC51C3AC01672C05A9BBF7CA (VRDeviceUserAnalytic_t4E9431DB74D2A4520E889C482FED0D8465FD5A52* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRDeviceActiveControllersAnalytic__ctor_m341D57A0E94CAAC620CC027D7367A5ED5017DC71 (VRDeviceActiveControllersAnalytic_t9A4E3228B274062CFA7B41EF94A335F25C8B11BC* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2 (Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssetDatabaseRefreshAnalytic__ctor_m559257B329AB842DDB2A66CB266045CA181636C4 (AssetDatabaseRefreshAnalytic_tE76E2BC8AC6BDAE6CC572691E17CCDEB62E5B477* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BuildAssetBundleAnalytic__ctor_m0D9A558EF518A3B188840D8D64E6AAB30525191D (BuildAssetBundleAnalytic_tD89C7AC30D63005A4698BE765CA8011832ACA947* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CollabOperationAnalytic__ctor_m01AF147512BE1565F7E7475DB5D15A4ABAE4C239 (CollabOperationAnalytic_t4704367CE9DC7632AB7A7D1F1162B750BE9A5367* __this, const RuntimeMethod* method) ;
@@ -1747,6 +1765,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRDeviceActiveControllersAnalytic__ctor_
 {
 	{
 		VRDeviceAnalyticBase__ctor_m6477E0459113D3D49F9A0296628C354A895EBB46(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnalyticInfoAttribute__ctor_m7382013C15A1DDF437867F03135BBA4B8D6B4919 (AnalyticInfoAttribute_tFD5050784AD38FD1AA33649751BAD325CF9EE304* __this, String_t* ___0_eventName, String_t* ___1_vendorKey, int32_t ___2_version, int32_t ___3_maxEventsPerHour, int32_t ___4_maxNumberOfElements, const RuntimeMethod* method) 
+{
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		int32_t L_0 = ___2_version;
+		__this->___U3CversionU3Ek__BackingField = L_0;
+		String_t* L_1 = ___1_vendorKey;
+		__this->___U3CvendorKeyU3Ek__BackingField = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CvendorKeyU3Ek__BackingField), (void*)L_1);
+		String_t* L_2 = ___0_eventName;
+		__this->___U3CeventNameU3Ek__BackingField = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CeventNameU3Ek__BackingField), (void*)L_2);
+		int32_t L_3 = ___3_maxEventsPerHour;
+		__this->___U3CmaxEventsPerHourU3Ek__BackingField = L_3;
+		int32_t L_4 = ___4_maxNumberOfElements;
+		__this->___U3CmaxNumberOfElementsU3Ek__BackingField = L_4;
 		return;
 	}
 }

@@ -204,6 +204,9 @@ struct SubsystemDescriptorWithProvider_t2A61A2C951A4A179E898CF207726BF6B5AF474D5
 	Type_t* ___U3CproviderTypeU3Ek__BackingField;
 	Type_t* ___U3CsubsystemTypeOverrideU3Ek__BackingField;
 };
+struct SubsystemExtensions_t34004204B6A9BA48C271D04BBF4C6A1520E29905  : public RuntimeObject
+{
+};
 struct SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824  : public RuntimeObject
 {
 };
@@ -2336,6 +2339,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubsystemWithProvider__ctor_m7AAC2F13A01
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
